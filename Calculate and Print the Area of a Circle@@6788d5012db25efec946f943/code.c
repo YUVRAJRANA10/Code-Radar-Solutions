@@ -10,7 +10,7 @@ int main() {
     float r;
     scanf("%f",r);
     float pie = 3.14;
-    float = pir*r*r;
-    printf("Area: %.2f",pie*r*r);
+    float area = pir*r*r;
+    printf("Area: %.2f",area);
     return 0;
 }
