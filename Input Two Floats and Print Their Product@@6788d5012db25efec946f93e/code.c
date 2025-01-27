@@ -7,7 +7,7 @@ char* welcome() {
 int main() {
     // printf("%s", welcome());
     int a,b;
-    scanf("%f %f", &a, &b);
+    scanf("%d %d", &a, &b);
     printf("Product: %.2f",a*b);
     return 0;
 }
