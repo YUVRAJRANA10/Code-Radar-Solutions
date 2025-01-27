@@ -9,6 +9,6 @@ int main() {
     char ss{100};
     char f{10s0};
     scanf("%s %s",&ss,&f);
-    printf("You entered: %s and %s",s,f);
+    printf("You entered: %s and %s",ss,f);
     return 0;
 }
