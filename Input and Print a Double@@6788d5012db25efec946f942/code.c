@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include<string.h>
+#include<math.h>
 
 char* welcome() {
     return "Welcome to Code Radar!";
