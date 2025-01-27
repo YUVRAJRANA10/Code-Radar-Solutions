@@ -8,6 +8,6 @@ int main() {
     // printf("%s", welcome());
     int a;
     scanf("%d",&a);
-    printf("Hexadecimal: %c\n Octal: %d",Hexadecimal(a),Octal(b));
+    printf("Hexadecimal: %c\n Octal: %d",a,a);
     return 0;
 }
