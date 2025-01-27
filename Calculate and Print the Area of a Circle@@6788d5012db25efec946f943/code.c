@@ -8,7 +8,7 @@ char* welcome() {
 int main() {
     // printf("%s", welcome());
     float r;
-    scanf("%f",r);
+    scanf("%f",&r);
     float pie = 3.14;
     float area = pir*r*r;
     printf("Area: %.2f",area);
