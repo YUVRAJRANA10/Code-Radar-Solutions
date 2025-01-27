@@ -8,8 +8,8 @@ char* welcome() {
 
 int main() {
     // printf("%s", welcome());
-    double cc;
-    scanf("%lf",&cc);
-    printf("You entered: %lf",cc);
+    double num;
+    scanf("%lf",&num);
+    printf("You entered: %lf\n",num);
     return 0;
 }
