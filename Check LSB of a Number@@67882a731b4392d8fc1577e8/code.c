@@ -8,11 +8,11 @@ int main() {
     // printf("%s", welcome());
     int a;
     scanf("%d",%a);
-    if(a % 2 == 1){
-        printf("Set");
+    if(a & 1){
+        printf("Set\n");
     }
     else{
-        printf("Not Set");
+        printf("Not Set\n");
     }
     return 0;
 }
