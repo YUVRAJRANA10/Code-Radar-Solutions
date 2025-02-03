@@ -8,7 +8,7 @@ int main() {
     // printf("%s", welcome());
     int a;
     scanf("%d",%a);
-    if(a & 1 == 1){
+    if(a % 2 == 1){
         printf("Set");
     }
     else{
