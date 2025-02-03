@@ -8,6 +8,6 @@ int main() {
     // printf("%s", welcome());
     int a,c;
     scanf("%d %d",&a,&c);
-    printf("%d"a>>b);
+    printf("%d"a>>c);
     return 0;
 }
