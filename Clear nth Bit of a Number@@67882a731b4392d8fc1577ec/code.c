@@ -8,7 +8,8 @@ int main() {
     // printf("%s", welcome());
     int a,b;
     scanf("%d %d",&a,&b);
-    ab = a & ~(1 << b);
-printf("%d",ab);
+    a = a & ~(1 << b); 
+
+    printf("%d",a);
     return 0;
 }
