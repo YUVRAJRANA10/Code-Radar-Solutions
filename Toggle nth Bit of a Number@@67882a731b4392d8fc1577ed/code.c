@@ -8,7 +8,7 @@ int main() {
     // printf("%s", welcome());
     int a,b;
     scanf("%d %d",&a,&b);
-    a = (a>>b) & ~(1|1) 
+    a = a ^ (1<<b);
     printf("%d",a)
     return 0;
 }
