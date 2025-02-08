@@ -11,7 +11,7 @@ int main() {
         printf("Vowel");
     }
      else if (isalpha(ch)) {
-        printf("Constant\n");
+        printf("Consonant\n");
     } else if (ispunct(ch)) {
         printf("Special Character\n");
     } 
