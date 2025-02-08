@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include<math.h>
 
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
+// char* welcome() {
+//     return "Welcome to Code Radar!";
+// }
 
 int main() {
     // printf("%s", welcome());
