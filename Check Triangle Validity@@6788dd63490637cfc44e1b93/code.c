@@ -9,7 +9,8 @@ int main() {
     // printf("%s", welcome());
     int a,b,c;
     scanf("%d %d %d",&a,&b,&c);
-    if(a*a + b*b = c*c){
+    // int cond = a*a + b*b =
+    if(a*a + b*b == c*c){
         printf("Valid");
     }
     else{
