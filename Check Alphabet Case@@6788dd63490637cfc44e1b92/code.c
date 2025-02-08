@@ -11,10 +11,10 @@ int main() {
     if(isdigit(cg)){
         printf("Not an alphabet");
     }
-    else if(toupper(cg)){
+    else if(cg == cj){
         printf("Uppercase");
     }
-    else if(tolower(cg)){
+    else if(cg == cl ){
         printf("Lowercase");
     }
   
