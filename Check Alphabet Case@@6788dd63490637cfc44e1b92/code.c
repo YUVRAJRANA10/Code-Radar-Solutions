@@ -9,7 +9,7 @@ int main() {
     char cg;
     scanf("%c",&cg);
     char cj = toupper(cg);
-    char cl = tolower(cl);
+    char cl = tolower(cg);
     if(cg == cj){
         printf("Uppercase");
     }
