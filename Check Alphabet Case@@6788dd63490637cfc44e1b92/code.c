@@ -6,12 +6,12 @@ char* welcome() {
 
 int main() {
     // printf("%s", welcome());
-    char c;
-    scanf("%c",&c);
-    if(c == toupper(c)){
+    char cg;
+    scanf("%c",&cg);
+    if(cg == toupper(cg)){
         printf("Uppercase");
     }
-    else if(c == tolower(c) ){
+    else if(cg == tolower(cg) ){
         printf("Lowercase");
     }
     else{
