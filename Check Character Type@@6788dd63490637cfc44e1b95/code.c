@@ -14,7 +14,7 @@ int main() {
 
     }
     else if(isdigit(ch)){
-        printf("Digit";)
+        // printf("Digit";)
     }
     
 
