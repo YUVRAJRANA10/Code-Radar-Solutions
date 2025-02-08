@@ -1,22 +1,19 @@
 #include <stdio.h>
-#include<ctype.h>
-
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
+#include <ctype.h>
 
 int main() {
-    // printf("%s", welcome());
     char ch;
-    scanf("%d",&ch);
-    if(ch == 'a','e','i','o','u'){
-        printf("Vowel");
+    scanf(" %c", &ch);  // Space before %c to avoid newline issues
 
+    if (isdigit(ch)) {
+        printf("Digit\n");
+    } else if (isalpha(ch)) {
+        printf("Alphabet\n");
+    } else if (ispunct(ch)) {
+        printf("Special Character (Punctuation)\n");
+    } else {
+        printf("Other Character (like space or control character)\n");
     }
-    else if(isdigit(ch)){
-        // printf("Digit";)
-    }
-    
 
     return 0;
 }
