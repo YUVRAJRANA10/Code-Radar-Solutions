@@ -5,6 +5,8 @@
 int main() {
     char cg;
     scanf("%c",&cg);
+    char cj = toupper(cg);
+    char cl = tolower(cg);
     
     if(isdigit(cg)){
         printf("Not an alphabet");
