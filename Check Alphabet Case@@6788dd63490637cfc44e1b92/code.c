@@ -8,6 +8,7 @@ int main() {
     scanf("%c",&cg);
     char cj = toupper(cg);
     char cl = tolower(cg);
+    // char cd = isdigit(cg)
     
     if(isdigit(cg){
         printf("Not an alphabet");
