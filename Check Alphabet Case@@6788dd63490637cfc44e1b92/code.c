@@ -1,9 +1,6 @@
 #include <stdio.h>
 #include<ctype.h>
 
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
 
 int main() {
     // printf("%s", welcome());
@@ -11,14 +8,16 @@ int main() {
     scanf("%c",&cg);
     char cj = toupper(cg);
     char cl = tolower(cg);
-    if(cg == cj){
+    
+    if(isdigit(cg){
+        printf("Not an alphabet");
+    })
+    else if(cg == cj){
         printf("Uppercase");
     }
     else if(cg == cl ){
         printf("Lowercase");
     }
-    else{
-        printf("Not an alphabet");
-    }
+  
     return 0;
 }
