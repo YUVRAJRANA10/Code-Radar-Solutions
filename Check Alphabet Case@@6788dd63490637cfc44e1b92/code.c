@@ -10,9 +10,9 @@ int main() {
     char cl = tolower(cg);
     // char cd = isdigit(cg)
     
-    if(isdigit(cg){
+    if(isdigit(cg)){
         printf("Not an alphabet");
-    })
+    }
     else if(cg == cj){
         printf("Uppercase");
     }
