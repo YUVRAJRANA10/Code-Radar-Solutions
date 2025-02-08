@@ -8,10 +8,12 @@ int main() {
     // printf("%s", welcome());
     char cg;
     scanf("%c",&cg);
-    if(cg == toupper(cg)){
+    char cj = toupper(cg);
+    char cl = tolower(cl);
+    if(cg == cj){
         printf("Uppercase");
     }
-    else if(cg == tolower(cg) ){
+    else if(cg == cl ){
         printf("Lowercase");
     }
     else{
