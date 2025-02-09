@@ -1,18 +1,16 @@
 #include <stdio.h>
 
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
 int main() {
-    // printf("%s", welcome());
-    int a;
-    scanf("%d",&a);
-    for(int i = a; i>=1;i--){
-        for(int j = 1;j<=i;j++){
+    int n;
+    printf("Enter the number of rows: ");
+    scanf("%d", &n);
+
+    for (int i = n; i >= 1; i--) {  // Loop for rows
+        for (int j = 1; j <= i; j++) {  // Loop for stars
             printf("*");
         }
-        printf("\n");
+        printf("\n");  // Move to next line
     }
+
     return 0;
 }
