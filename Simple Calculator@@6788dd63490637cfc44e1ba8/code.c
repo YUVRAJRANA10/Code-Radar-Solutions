@@ -19,9 +19,13 @@ int main() {
         case '*':
         printf("%d",a*b);
         break;
-        case '/':
-        printf("%d",a/b);
-        break;
+           case '/':
+            if (b == 0) {
+                printf("Error\n");  // Handle division by zero
+            } else {
+                printf("%d\n", a / b);
+            }
+            break;
         default:
         printf("Error");
     }
