@@ -8,7 +8,7 @@ int main() {
     // printf("%s", welcome());
     int a;
     scanf("%d",&a);
-    char cc
+    char cc;
     for(int i = a; i==0;i--){
         printf("*");
     }
