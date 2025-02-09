@@ -7,7 +7,7 @@ int main() {
     for (int i = 1; i <= n; i++) {  // Loop for rows
     if(i==1){
         for (int j = 1; j <= i; j++) {  // Loop for stars
-            printf("*");  // Add space for proper formatting
+            printf(" * ");  // Add space for proper formatting
         }
         printf("\n");  // Move to the next line
     }
