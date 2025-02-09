@@ -8,11 +8,11 @@ int main() {
     // printf("%s", welcome());
     int a;
     scanf("%d",&a);
-    if(a%2 != 0){
-        printf("Prime");
+    if(a%2 == 0){
+        printf("Not Prime");
     }
     else{
-        printf("Not Prime");
+        printf("Prime");
     }
     return 0;
 }
