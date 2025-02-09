@@ -5,17 +5,17 @@ char* welcome() {
 }
 
 int main() {
-    // printf("%s", welcome());4
-    int a;
-    scanf("%d",&a);
-    if(a>0){
+    // printf("%s", welcome());
+    int a,b;
+    scanf("%d %d",&a,&b);
+    if(a<b){
         printf("First");
     }
-    else if(a<0){
+    else if(a>b){
         printf("Second");
     }
     else{
-        printf("Equal");
+         printf("Equal");
     }
     return 0;
 }
