@@ -10,7 +10,7 @@ int main() {
         }
 
         for (int j = 1; j <= i; j++) {  // Loop for stars
-            printf(" *");  // Add space for proper formatting
+            printf("*");  // Add space for proper formatting
         }
         printf("\n");  // Move to the next line
     }
