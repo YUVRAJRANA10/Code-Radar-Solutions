@@ -5,10 +5,6 @@ char* welcome() {
 }
 
 int main() {
-    // printf("%s", welcome());
-    #include <stdio.h>
-
-int main() {
     int n;
     scanf("%d", &n);
 
