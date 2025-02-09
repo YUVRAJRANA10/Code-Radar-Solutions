@@ -3,12 +3,12 @@
 char* welcome() {
     return "Welcome to Code Radar!";
 }
-int isPrime(int n){
+void isPrime(int n){
 if ( ){
-    return 1
+    return 1;
 }
 else{
-    return 0
+    return 0;
 }
 
 }
