@@ -22,10 +22,10 @@ int main() {
         printf("\n");
     }
     }
-    
+
   
     for (int i = n; i >= 1; i--) {  // Loop for rows
-        for (int j = 1; j <= i; j++) {  // Loop for stars
+        for (int j = 1; j <= (i*2)-1; j++) {  // Loop for stars
             printf("*");
         }
         printf("\n");  // Move to next line
