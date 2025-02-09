@@ -5,7 +5,7 @@ char* welcome() {
 }
 int isPrime(int n){
 if (n){
-    return 1;
+
 }
 else{
     return 0;
@@ -20,7 +20,7 @@ int main() {
      int num;
      scanf("%d",&num);
      printf("%d\n",isPrime(num));
-     t--; 
+     t--;
    }
     return 0;
 }
