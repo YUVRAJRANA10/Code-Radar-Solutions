@@ -22,7 +22,7 @@ int main() {
         break;
       
         default:
-        printf("Invalid light");
+        printf("Invalid input");
         
 
     }
