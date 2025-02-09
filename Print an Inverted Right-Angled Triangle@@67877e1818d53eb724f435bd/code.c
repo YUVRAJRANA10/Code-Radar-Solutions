@@ -10,7 +10,7 @@ int main() {
     scanf("%d",&a);
     char cc = '*';
     for(int i = a; i==0;i--){
-        printf("%s",cc*i);
+        printf("%c\n",cc*i);
     }
     return 0;
 }
