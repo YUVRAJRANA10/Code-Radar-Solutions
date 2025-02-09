@@ -8,7 +8,8 @@ int main() {
     // printf("%s", welcome());
     int a;
     scanf("%d",&a);
-    if(a % a == 0 && a % 2 != 0 && a % 3 != 0){
+
+    if(a % a == 0 && a % 2 != 0 && a % 3 != 0 || a ==2){
         printf("Prime");
     }
     else{
