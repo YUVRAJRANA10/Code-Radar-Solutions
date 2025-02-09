@@ -29,7 +29,7 @@ int main() {
     for (int k = i; k>=1;k--){
         printf(" ");
     }
-        for (int j = 1; j <= (i*2)-1; j++) {  // Loop for stars
+        for (int j = (i*2)-1; j <= n; j++ ) {  // Loop for stars
             printf("*");
         }
         printf("\n");  // Move to next line
