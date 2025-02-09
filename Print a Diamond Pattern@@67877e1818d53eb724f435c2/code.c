@@ -25,7 +25,7 @@ int main() {
 
 
   
-    for (int i = n-1; i >= 1; i--) {  // Loop for rows
+    for (int i = 1; i <= n-1; i++) {  // Loop for rows
     for (int k = i; k>=1;k--){
         printf(" ");
     }
