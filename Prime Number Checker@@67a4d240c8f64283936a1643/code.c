@@ -12,10 +12,9 @@ return 1;
 }
 
 int main() {
-   int t;
+   int t,num;
    scanf("%d",&t);
    while(t--){
-     int num;
      scanf("%d",&num);
      printf("%d\n",isPrime(num)); 
    }
