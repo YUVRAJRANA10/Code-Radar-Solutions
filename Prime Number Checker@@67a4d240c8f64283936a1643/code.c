@@ -5,10 +5,10 @@ char* welcome() {
 }
 int isPrime(int n){
 if ( ){
-    return 1;
+    return 1
 }
 else{
-    return 0;
+    return 0
 }
 
 }
