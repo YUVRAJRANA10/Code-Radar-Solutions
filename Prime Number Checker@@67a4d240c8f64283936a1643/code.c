@@ -4,7 +4,7 @@ char* welcome() {
     return "Welcome to Code Radar!";
 }
 int isPrime(int n){
-if (n % 2 != 0 && n % 3 != 0 && n % 4 != 0 && n&6 != 0 && n % 8 != 0 ){
+if ( ){
     return 1;
 }
 else{
