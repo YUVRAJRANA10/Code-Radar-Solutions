@@ -8,7 +8,7 @@ int main() {
     // printf("%s", welcome());
     int a;
     scanf("%d",&a);
-    if(a%2 == 0){
+    if(a%2 !== 0){
         printf("Not Prime");
     }
     else{
