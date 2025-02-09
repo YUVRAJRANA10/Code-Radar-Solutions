@@ -10,7 +10,10 @@ int main() {
     scanf("%d",&a);
     char cc;
     for(int i = a; i>=1;i--){
-        printf("*");
+        for(int j = 1;j<=i;i++){
+            printf("*");
+        }
+        printf("\n");
     }
     return 0;
 }
