@@ -16,7 +16,7 @@ int main() {
         printf("\n");  // Move to the next line
     }
     else{
-        for(int k = 1; k<= (i*2)-1;k++){
+        for(int k = 1; k<= n;k++){
             printf("%d ",k);
         }
         printf("\n");
