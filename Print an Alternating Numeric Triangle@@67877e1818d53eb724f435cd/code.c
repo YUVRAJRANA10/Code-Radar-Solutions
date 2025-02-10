@@ -8,8 +8,9 @@ int main() {
 
     for (int i = 1; i <= n; i++) {  // Loop for rows
         for (int j = 1; j <= i; j++) {  
-            printf("%d",num);
-            toggle(num);
+            int x = toggle(num);
+            printf("%d",x);
+        
         }
         printf("\n");  // Move to the next line
     }
