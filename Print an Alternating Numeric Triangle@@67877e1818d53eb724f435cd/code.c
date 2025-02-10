@@ -1,18 +1,15 @@
 #include <stdio.h>
-int toggle(int num) {
-    return num ^ 1; 
-}
+
 int main() {
-    int n,num;
+    int n;
     scanf("%d", &n);
 
     for (int i = 1; i <= n; i++) {  // Loop for rows
-        for (int j = 1; j <= i; j++) {  
-            num ^= 1;
-            printf("%d ",num);
+        int num = (i % 2 == 1) ? 1 : 0;  // Start with 1 for odd rows, 0 for even
 
-
-        
+        for (int j = 1; j <= i; j++) { 
+            printf("%d ", num);
+            num ^= 1;  // Toggle between 1 and 0
         }
         printf("\n");  // Move to the next line
     }
