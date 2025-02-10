@@ -10,7 +10,7 @@ int main() {
     scanf("%d",&n);
     for(int i = 1; i <=n;i++){
         for(int j = 0; j< i; j++){
-            printf("%d ",j+i);
+            printf("%d ",j*i+1);
         }
         printf("\n");
     }
