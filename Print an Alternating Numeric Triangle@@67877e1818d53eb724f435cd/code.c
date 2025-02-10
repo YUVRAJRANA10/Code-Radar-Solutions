@@ -3,7 +3,7 @@ int toggle(int num) {
     return num ^ 1; 
 }
 int main() {
-    int n;
+    int n,num;
     scanf("%d", &n);
 
     for (int i = 1; i <= n; i++) {  // Loop for rows
