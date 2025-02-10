@@ -22,15 +22,18 @@ int main() {
         printf("\n");
     }
     }  
-    for (int i = n-1; i >= 1; i--) {  // Loop for rows
-    for (int k = i; k<=n-i;k++){
-        printf(" ");
-    }
-        for (int j = 1; j <= (2*i-1); j++ ) {  // Loop for stars
+        for (int i = n - 1; i >= 1; i--) {
+        // Print spaces
+        for (int j = 1; j <= n - i; j++) {
+            printf(" ");
+        }
+        // Print stars
+        for (int k = 1; k <= (2 * i - 1); k++) {
             printf("*");
         }
-        printf("\n");  // Move to next line
+        printf("\n");
     }
+    
 
     return 0;
 }
