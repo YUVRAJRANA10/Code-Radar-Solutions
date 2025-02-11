@@ -11,7 +11,7 @@ int main() {
     int counter = 0;
     for(int i = 0;i < sizeof(cc);i++){
         char bb = cc[i];
-        if(bb == "a" || bb == 'e' || bb == 'i' || bb == 'o' || bb == 'u'){
+        if(bb == 'a'  || bb == 'e' || bb == 'i' || bb == 'o' || bb == 'u'){
             counter++;
         }
     }
