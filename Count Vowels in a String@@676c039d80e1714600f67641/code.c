@@ -1,20 +1,19 @@
 #include <stdio.h>
-
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
+#include <string.h>
 
 int main() {
-    // printf("%s", welcome());
     char cc[100];
-    scanf("%s",&cc);
+    fgets(cc, sizeof(cc), stdin);  
+
     int counter = 0;
-    for(int i = 0;i < sizeof(cc);i++){
+    for (int i = 0; i < strlen(cc); i++) { 
         char bb = cc[i];
-        if(bb == 'a'  || bb == 'e' || bb == 'i' || bb == 'o' || bb == 'u'|| bb == 'A' || bb == 'E' || bb == 'I'|| bb == 'O' || bb == 'U' ){
+        if (bb == 'a' || bb == 'e' || bb == 'i' || bb == 'o' || bb == 'u' ||
+            bb == 'A' || bb == 'E' || bb == 'I' || bb == 'O' || bb == 'U') {
             counter++;
         }
     }
-    printf("%d",counter);
+
+    printf("%d\n", counter);
     return 0;
 }
