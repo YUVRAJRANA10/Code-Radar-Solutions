@@ -8,17 +8,18 @@ int main() {
     fgets(cc, sizeof(cc), stdin);
     scanf("%c",&re);
     scanf("%c",&rep);
-
+char bb[100];
     int counter = 0;
     for (int i = 0; i < strlen(cc); i++) { 
-        char bb = cc[i];
+        
+        bb[i] == cc[i];
        if(bb == re){ 
-        cc[i] == rep;
+        bb[i] == rep;
 
        }
         }
     
 
-    printf("%s\n", cc);
+    printf("%s\n",bb );
     return 0;
 }
