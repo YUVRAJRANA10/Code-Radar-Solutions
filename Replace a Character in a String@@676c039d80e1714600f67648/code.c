@@ -11,7 +11,7 @@ int main() {
 
     int counter = 0;
     for (int i = 0; i < strlen(cc); i++) { 
-        char bb[100] = cc[i];
+        char bb = cc[i];
        if(bb == re){ 
         cc[i] == rep;
 
