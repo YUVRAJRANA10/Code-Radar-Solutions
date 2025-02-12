@@ -2,7 +2,7 @@
 # include <math.h>
 
 // Function to check if a number is prime
-int isPrime(int n) {
+// int isPrime(int n) {
     // if (n <= 1) return 0;
     // if (n == 2 || n == 3) return 1;
     // if (n % 2 == 0 || n % 3 == 0) return 0;
@@ -10,7 +10,7 @@ int isPrime(int n) {
     //     if (n % i == 0 || n % (i + 2) == 0) return 0;
     // }
     // return 1;
-}
+// }
 
 int main() {
     int t;
