@@ -13,6 +13,6 @@ int main() {
     for (int i = 0; i < strlen(cc); i++) { 
     char bb[100] == cc[i];
          }
-    printf("%s\n",bb );
+    printf("%c\n",bb );
     return 0;
 }
