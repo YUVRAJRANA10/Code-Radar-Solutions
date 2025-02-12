@@ -10,13 +10,14 @@ int main() {
     fgets(cd, sizeof(cd), stdin);  
 
     int counter = 0;
-    for (int i = 0; i < strlen(cc); i++) { 
-            printf("%c",cc[i]);
-    }
-    printf(" ");
-      for (int i = 0; i < strlen(cd); i++) { 
-            printf("%c",cd[i]);
-    }
+    // for (int i = 0; i < strlen(cc); i++) { 
+    //         printf("%c",cc[i]);
+    // }
+    // printf(" ");
+    //   for (int i = 0; i < strlen(cd); i++) { 
+    //         printf("%c",cd[i]);
+    // }
+    printf("%s",strcat(cc,cd));
   
     return 0;
 }
