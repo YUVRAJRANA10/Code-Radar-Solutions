@@ -22,18 +22,11 @@ int isPrime(int n) {
 
 int main() {
     int t, num;
-
-    // Read the number of test cases
     scanf("%d", &t);
 
-    // Loop through each test case
     while (t--) {
-        // Read the number to check for primality
         scanf("%d", &num);
-
-        // Print 1 if prime, 0 if not prime
         printf("%d\n", isPrime(num));
     }
-    
     return 0;
 }
