@@ -17,7 +17,8 @@ int main() {
     //   for (int i = 0; i < strlen(cd); i++) { 
     //         printf("%c",cd[i]);
     // }
-    printf("%s ",strcat(cc,cd));
+    strcat(cc,cd);
+    printf("%s",cc);
   
     return 0;
 }
