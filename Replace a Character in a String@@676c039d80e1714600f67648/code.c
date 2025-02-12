@@ -11,7 +11,7 @@ int main() {
 
     int counter = 0;
     for (int i = 0; i < strlen(cc); i++) { 
-      printf("%c",i);
+      printf("%c",cc[i]);
         }
     
     return 0;
