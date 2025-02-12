@@ -11,7 +11,7 @@ int main() {
 
     int counter = 0;
     for (int i = 0; i < strlen(cc); i++) { 
-      printf("%c",cc[i]);
+    //   printf("%c",cc[i]);
       if(cc[i]== re){
         cc[i] == rep;
       }
