@@ -11,15 +11,11 @@ int main() {
 char bb[100];
     int counter = 0;
     for (int i = 0; i < strlen(cc); i++) { 
-        
         bb[i] == cc[i];
        if(bb == re){ 
         bb[i] == rep;
-
        }
         }
-    
-
     printf("%s\n",bb );
     return 0;
 }
