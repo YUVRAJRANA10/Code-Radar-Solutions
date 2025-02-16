@@ -1,21 +1,18 @@
 #include <stdio.h>
 
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
 int main() {
-    // printf("%s", welcome());
-    int a;
-    scanf("%d",&a);
-    int pos;
-    int count = 0;
-    for (int i= 0 ; i < 16;i++)
-    {
-        pos = a << i;
-        if(pos == 1){
-            count++;
-            break;
-        }
-
+    int n;
+    scanf("%d", &n);
+    
+    // Edge case: If n is 0, no set bits are present
+    if (n == 0) {
+        printf("-1\n");
+        return 0;
     }
+
+    // Use __builtin_ctz to count trailing zeros (GCC specific)
+    int position = __builtin_ctz(n);
+    
+    printf("%d\n", position);
+    return 0;
+}
