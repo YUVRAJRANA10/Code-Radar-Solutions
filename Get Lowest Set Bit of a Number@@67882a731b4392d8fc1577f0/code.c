@@ -8,7 +8,8 @@ int main() {
     // printf("%s", welcome());
     int a;
     scanf("%d",&a);
-    int pos = 0;
+    int pos;
+    int count = 0;
     for (int i= 0 ; i < 16;i++)
     {
         pos = a << i;
